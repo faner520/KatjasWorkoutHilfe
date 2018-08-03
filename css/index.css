@@ -15,10 +15,8 @@ h1 {
         padding: 20px;
         font-size: 150%;
     }
-    
     .image {
         height: 100%;
-
         background-image: url(../resources/img/landing_pic.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -29,5 +27,10 @@ h1 {
     }
     .plan {
         background-color: red;
+    }
+    ul {
+        list-style-type: none;
+        column-count: 2;
+        column-gap: 20px;
     }
 }
