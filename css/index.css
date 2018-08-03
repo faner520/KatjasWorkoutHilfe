@@ -2,3 +2,12 @@ h1 {
     background: blue;
     color: red;
 }
+
+@media screen and (max-width: 767px) {
+    body {
+        background: black;
+    }
+    h1 {
+        background: pink;
+    }
+}
