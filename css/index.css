@@ -27,6 +27,19 @@
     background-color: red;
 }
 
+h2 {
+    text-align: center;
+}
+
+a {
+    color: #DDD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
 ul {
     list-style-type: none;
     column-count: 2;
