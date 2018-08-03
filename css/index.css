@@ -1,6 +1,6 @@
 .container {
     grid-template-columns: 100%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: repeat(20%, 5);
 }
 
 .box {
@@ -8,6 +8,10 @@
     color: #fff;
     padding: 20px;
     font-size: 150%;
+}
+
+.header {
+    background-color:yellow;
 }
 
 .image {
@@ -20,6 +24,9 @@
 
 .exercises {
     background-color: blue;
+
+    justify-self: center;
+    align-self: center;
 }
 
 .plan {
