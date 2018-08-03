@@ -19,13 +19,17 @@
     background-color: yellow;
 }
 
-.image {
+.cover-image {
     height: 100%;
     /* background-image: url(../resources/img/landing_pic.jpg);*/
     background-color: cornflowerblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.draw {
+    animation: offset 5s linear forwards;
 }
 
 .exercises {
