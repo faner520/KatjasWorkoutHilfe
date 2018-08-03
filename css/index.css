@@ -1,22 +1,28 @@
 .container {
+    display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(20%, 5);
 }
 
-.box {
+.box-level-1 {
     background-color: #444;
     color: #fff;
     padding: 20px;
     font-size: 150%;
 }
 
+.box-level-3 {
+    justify-self: center;
+}
+
 .header {
-    background-color:yellow;
+    background-color: yellow;
 }
 
 .image {
     height: 100%;
-    background-image: url(../resources/img/landing_pic.jpg);
+    /* background-image: url(../resources/img/landing_pic.jpg);*/
+    background-color: cornflowerblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,9 +30,15 @@
 
 .exercises {
     background-color: blue;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+}
 
-    justify-self: center;
-    align-self: center;
+.excercise-list {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
 }
 
 .plan {
@@ -47,9 +59,8 @@ a:hover {
 }
 
 ul {
+    display: inline-block;
     list-style-type: none;
-    column-count: 2;
-    column-gap: 20px;
 }
 
 /* @media screen and (max-width: 767px) { */
