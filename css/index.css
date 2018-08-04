@@ -13,6 +13,31 @@
 
 .box-level-3 {
     justify-self: center;
+    justify-items: stretch;
+}
+
+.left-unordered-list {
+    left: -100%;
+}
+
+.right-unordered-list {
+    left: 100%;
+}
+
+.animation {
+    position: relative;
+    opacity: 0;
+    -webkit-transition-property: opacity left;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-property: opacity left;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.animation-end {
+    left: 0%;
+    opacity: 1;
 }
 
 .header {
@@ -26,10 +51,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.draw {
-    animation: offset 5s linear forwards;
 }
 
 .exercises {
