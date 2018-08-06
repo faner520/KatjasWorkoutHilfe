@@ -1,5 +1,4 @@
-function isElementInViewport (el) {
-
+function isElementInViewport(el) {
     //special bonus for those using jQuery
     if (typeof jQuery === "function" && el instanceof jQuery) {
         el = el[0];
@@ -15,7 +14,7 @@ function isElementInViewport (el) {
     );
 }
 
-$(document).ready(() =>  {
+$(document).ready(() => {
     $(window).scroll(() => {
         if (isElementInViewport($(".box-level-3"))) {
             $(".slide-animation").addClass("slide-animation-end");
