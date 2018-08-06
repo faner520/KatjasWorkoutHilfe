@@ -44,10 +44,8 @@
     font-size: 100%;
     -webkit-transition-property: font-size;
     -webkit-transition-duration: 1.0s;
-    -webkit-transition-timing-function: ease-out;
     transition-property: font-size;
     transition-duration: 1.0s;
-    transition-timing-function: ease-out;
 }
 
 .zoom-animation-end {
