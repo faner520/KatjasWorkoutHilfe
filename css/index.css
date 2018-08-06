@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(20%, 5);
+    grid-template-rows: repeat(25%, 4);
 }
 
 .box-level-1 {
@@ -52,14 +52,10 @@
     font-size: 150%
 }
 
-.header {
-    background-color: yellow;
-}
-
 .cover-image {
     height: 100%;
-    /* background-image: url(../resources/img/landing_pic.jpg);*/
-    background-color: cornflowerblue;
+    background-image: url(../resources/img/landing_pic.jpg);
+    /* background-color: cornflowerblue; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
