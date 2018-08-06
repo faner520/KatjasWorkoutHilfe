@@ -24,7 +24,7 @@
     left: 100%;
 }
 
-.animation {
+.slide-animation {
     position: relative;
     opacity: 0;
     -webkit-transition-property: opacity left;
@@ -35,7 +35,7 @@
     transition-timing-function: ease-out;
 }
 
-.animation-end {
+.slide-animation-end {
     left: 0%;
     opacity: 1;
 }

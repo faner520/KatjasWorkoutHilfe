@@ -18,7 +18,7 @@ function isElementInViewport (el) {
 $(document).ready(() =>  {
     $(window).scroll(() => {
         if (isElementInViewport($(".box-level-3"))) {
-            $(".animation").addClass("animation-end");
+            $(".slide-animation").addClass("slide-animation-end");
         }
     });
 });
