@@ -20,5 +20,9 @@ $(document).ready(() =>  {
         if (isElementInViewport($(".box-level-3"))) {
             $(".slide-animation").addClass("slide-animation-end");
         }
+
+        if (isElementInViewport($(".title"))) {
+            $(".zoom-animation").addClass("zoom-animation-end");
+        }
     });
 });
