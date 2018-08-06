@@ -16,12 +16,9 @@ function isElementInViewport (el) {
 }
 
 $(document).ready(() =>  {
-    const boxLevel3 = $(".box-level-3");
-
     $(window).scroll(() => {
-        if (isElementInViewport(boxLevel3)) {
-            $(".left-unordered-list").addClass("animation-end");
-            $(".right-unordered-list").addClass("animation-end");
+        if (isElementInViewport($(".box-level-3"))) {
+            $(".animation").addClass("animation-end");
         }
     });
 });
