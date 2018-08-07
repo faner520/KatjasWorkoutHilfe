@@ -4,7 +4,7 @@ function isElementInViewport(el) {
         el = el[0];
     }
 
-    var rect = el.getBoundingClientRect();
+    const rect = el.getBoundingClientRect();
 
     return (
         rect.top >= 0 &&
